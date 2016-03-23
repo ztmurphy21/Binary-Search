@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package intsearchbinary;
 
 import java.util.Arrays;
@@ -10,26 +6,23 @@ import java.util.Scanner;
 
 /**
  *
- * @author zacha
+ * @author Zach Murphy
  */
 public class IntSearchBinary {
 
-    /**
-     * @param args the command line arguments
-     */
+  
     public static void main(String[] args) {
         //scanner for input
         Scanner keyboard = new Scanner (System.in);
         //array of strings
-        String [] searchData = {"Jack", "Bob", "Esther", "Zoe", "Al", "Katy"};
-        //must be sorted to be searched
-        
+        String [] searchData = {"Java", "C++", "JavaScript", "Swift", "HTML", "CSS", "Ruby", "Phython"};
+        //must be sorted to be searched, since using binary search algorithm 
         Arrays.sort(searchData);
         //prints out array
         System.out.println(Arrays.asList(searchData));
         //loop as for user search and then searches array until it is found or nothing is found and outputs result
         for(int x = 1; x <=3; x ++){
-            System.out.println("Enter a string to search for: ");
+            System.out.println("Enter a programming  to search for: (Case Sensitive) ");
             String str = keyboard.nextLine();
             System.out.println("You entered " + str);
             
@@ -37,7 +30,7 @@ public class IntSearchBinary {
             if(position != -1)
                 System.out.println(str + " is found at position " + position);
             else 
-                System.out.println(str + " is not in the array, sorry :(");
+                System.out.println(str + " is not in the array, sorry :( but maybe you can create this langauge");
         }
     }
     // this will use two variales that will work with
