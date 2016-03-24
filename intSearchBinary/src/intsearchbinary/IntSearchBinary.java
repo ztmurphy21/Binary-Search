@@ -24,7 +24,7 @@ public class IntSearchBinary {
         //prints out array
         System.out.println("Programming Languages: ");
         System.out.println(Arrays.asList(searchData));
-        System.out.println("Programming Terms: ")
+        System.out.println("Programming Terms: ");
         System.out.println(Arrays.asList(searchMore));
         //loop as for user search and then searches array until it is found or nothing is found and outputs result
         for(int x = 1; x <=3; x ++){
