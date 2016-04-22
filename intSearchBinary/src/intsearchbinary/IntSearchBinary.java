@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class IntSearchBinary {
 
-  
+  //test
     public static void main(String[] args) {
         //scanner for input
         Scanner keyboard = new Scanner (System.in);
